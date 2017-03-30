@@ -12,3 +12,10 @@ Laboratório de Desenvolvimento de Software para a Web de 2017/1.
 ## Acessando a aplicação
 
 Acesse `http://localhost:8080/lab-dw-2017-1` em qualquer navegador.
+
+## Pendências na documentação
+
+* Documentar instalação do Git no Windows.
+* Documentar instalação do Git no Linux.
+* Documentar instalação do Java no Windows.
+* Documentar instalação do Java no Linux.
