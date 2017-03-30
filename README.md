@@ -7,7 +7,7 @@ Laboratório de Desenvolvimento de Software para a Web de 2017/1.
 
 ## Executando a aplicação
 
-`mvn org.apache.tomcat.maven:tomcat7-maven-plugin:run`
+`mvn org.apache.tomcat.maven:tomcat7-maven-plugin:run -Dmaven.tomcat.port=9090`
 
 ## Acessando a aplicação
 
