@@ -5,9 +5,10 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>minha.empresa</groupId>
-  <artifactId>meu-webapp</artifactId>
+  <groupId>br.ufg.inf.es.dw</groupId>
+  <artifactId>lab-dw-2017-1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <!-- Para aplicação web "standard" (JEE).-->
   <packaging>war</packaging>
 
   <properties>
