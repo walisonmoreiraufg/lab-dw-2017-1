@@ -13,6 +13,14 @@ Laboratório de Desenvolvimento de Software para a Web de 2017/1.
 
 Acesse `http://localhost:8080/lab-dw-2017-1` em qualquer navegador.
 
+## Como o projeto foi construído
+
+### "Embutindo" o Maven
+
+Para que não seja necessário instalar e configurar o Maven, ele foi embutido no projeto com o seguinte comando:
+
+`mvn io.takari:maven:0.3.3:wrapper -Dmaven=3.3.9`
+
 ## Pendências na documentação
 
 * Documentar instalação do Git no Windows.
