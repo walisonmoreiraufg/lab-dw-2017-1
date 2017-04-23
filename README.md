@@ -3,6 +3,12 @@ Laboratório de Desenvolvimento de Software para a Web de 2017/1.
 
 ## Obtendo o projeto
 
+### Instalando o Git
+
+Acesse `https://git-scm.com/downloads` e siga as instruções lá propostas
+
+### Clonando o projeto
+
 `git clone https://github.com/walison-moreira-ufg/lab-dw-2017-1`
 
 ## Executando a aplicação
@@ -25,9 +31,8 @@ Para que não seja necessário instalar e configurar o Maven, ele foi embutido n
 
 `mvn io.takari:maven:0.3.3:wrapper -Dmaven=3.3.9`
 
+
 ## Pendências na documentação
 
-* Documentar instalação do Git no Windows.
-* Documentar instalação do Git no Linux.
 * Documentar instalação do Java no Windows.
 * Documentar instalação do Java no Linux.
