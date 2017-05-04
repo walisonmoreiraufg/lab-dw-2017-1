@@ -33,6 +33,7 @@
 <!-- Scriptlet. Código Java na página JSP. -->
 <%
 String idadeStr = request.getParameter("idade");
+idadeStr = idadeStr == null ? "0" : idadeStr;
 int idade = Integer.parseInt(idadeStr);
 String mensagem = "";
 String tipoMensagem = "";
