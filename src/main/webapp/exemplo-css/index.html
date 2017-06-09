@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Web Application - DW - Exemplo CSS</title>
+    <meta charset="utf-8">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="exemplo-css.css">
+    <!-- Definição na própria página -->
+    <style>
+      td {
+        background-color: blue;
+        color: white;
+      }
+      .titulo {
+        background-color: cyan;
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><a href="../">Web Application - DW</a></h1>
+    <!-- Definir direto na tag. -->
+    <h2 style="background-color: blue; color: white">Exemplo CSS</h2>
+    <hr>
+    <h3>Tabela</h3>
+    <table>
+      <!-- Linha -->
+      <tr>
+        <!-- Coluna -->
+        <td class="titulo">Código</td>
+        <td class="titulo">Nome</td>
+      </tr>
+      <tr>
+        <td>123</td>
+        <td>José Maria</td>
+      </tr>
+      <tr>
+        <td>456</td>
+        <td>Maria José</td>
+      </tr>
+    </table>
+    <hr>
+    <h3>Formulário</h3>
+    <form method="post">
+      Código: <input type="text" name="codigo">
+      <br>
+      Nome: <input type="text" name="nome">
+      <br>
+      Senha: <input type="password" name="senha">
+      <br>
+      <input type="submit" value="Ok">
+      <!--Faz o mesmo. -->
+      <button>Ok (button)</button>
+    </form>
+  </body>
+</html>
